@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>MeiiKey</title>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Wed, 21 Oct 2026 18:47:37 +0700</pubDate>
+            <link>https://meiikey.github.io/</link>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>MeiiKey 1.0.1</h2>
+<ul>
+  <li>Sửa đường thay chữ trên thanh địa chỉ Cốc Cốc/Chromium để không xóa thừa chữ đứng trước khi gợi ý tự động thay đổi.</li>
+  <li>Chỉ thay phần đang chỉnh bằng vùng chọn; không đọc hay ghi lại toàn bộ địa chỉ web.</li>
+  <li>Giữ phím gõ gốc khi vị trí gợi ý chưa khớp, tránh thao tác xóa không chắc chắn.</li>
+</ul>
+<p>Đã kiểm thử hồi quy 3.525 trường hợp. Người dùng đã xác nhận goo không mất chữ g,
+và aam / tieengs vẫn gõ được âm / tiếng trên thanh địa chỉ Cốc Cốc.</p>
+<p>Bản này được ký Apple Development, chưa được Apple notarize.</p>
+]]></description>
+            <enclosure url="https://meiikey.github.io/downloads/MeiiKey-1.0.1-arm64.zip" length="2942540" type="application/octet-stream" sparkle:edSignature="Z1sIR+xHk1J8evaCVW/UqO77dCfgrfTjxzsRpZi3zUZGiqJzs3jd4SKDZqrON+71bJNK2lj8HSckHc6aB4iIBA=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Wed, 21 Oct 2026 13:00:52 +0700</pubDate>
             <link>https://meiikey.github.io/</link>
@@ -48,29 +68,9 @@ Chỉ cài từ nguồn tải mà bạn tin cậy.</p>
 ]]></description>
             <enclosure url="https://meiikey.github.io/downloads/MeiiKey-0.3.18-arm64.zip" length="2940724" type="application/octet-stream" sparkle:edSignature="A2trtWKXhwDImN/wzqO1YDDsaxlLGupPDHdMaIyd1FtEC1WSjNckgqIoB0Y/ccxkJKvEme/f9LLgzXLEsQxWBQ=="/>
         </item>
-        <item>
-            <title>0.3.16</title>
-            <pubDate>Wed, 21 Oct 2026 11:17:22 +0700</pubDate>
-            <link>https://meiikey.github.io/</link>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>0.3.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>MeiiKey 0.3.16</h2>
-<ul>
-  <li>Kiểm tra phiên bản mới từ website chính thức meiikey.github.io.</li>
-  <li>Tải, xác minh chữ ký và cài bản cập nhật ngay trong ứng dụng.</li>
-  <li>Có thể bật hoặc tắt tự kiểm tra mỗi ngày trong bảng điều khiển.</li>
-</ul>
-<p>Chỉ cài khi bạn đồng ý. Giữ các lựa chọn kiểu gõ và phím chuyển hiện tại.
-Quyền Trợ năng thường được giữ khi định danh và chữ ký ứng dụng tương thích;
-macOS vẫn có thể yêu cầu cấp lại nếu chữ ký thay đổi.</p>
-]]></description>
-            <enclosure url="https://meiikey.github.io/downloads/MeiiKey-0.3.16-arm64.zip" length="2935450" type="application/octet-stream" sparkle:edSignature="tzECAt4nq+is1BYriVHzGDXuTzgvn8LfIN7uGSbYifOlomi9cV/8IGAadVNyrbO7r1k1R7XtlgJ8wjbfYvc+Ag=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: iTWL/9HDf2Xu4HG63tK+JoUrZrjkNB26UKH6o5a96EiOuaHSDJncSFjOB01DTv6N+lQO6lGTH9Kzt4OSmYvMBA==
-length: 4939
+edSignature: I3+HojxMLld0lQTFRRtSG5DvW2Ok2SRkkG9Hoy4x95oaVTf54ymq1ogbBZ78e0iJyH1XluAs1YqjTk1ArA4tAA==
+length: 5064
 -->
