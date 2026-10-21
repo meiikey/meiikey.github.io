@@ -23,6 +23,11 @@ h1 em{display:inline-block;font-style:normal;line-height:1.22;padding:.12em .04e
 .text-link{color:#d2d8ef;font-weight:650}
 .text-link span{color:var(--cyan)}
 .requirements{color:#747e9c;font-size:.82rem;margin-top:18px}
+.release-notice,.guide-warning{border:1px solid #e8b45e66;border-radius:14px;background:#e8b45e0b;padding:18px 20px;margin-top:24px;font-size:.94rem}
+.release-notice strong,.guide-warning strong{color:#f1cf94}
+.release-notice p{color:#bac3dc;margin:8px 0}
+.release-notice a,.steps a,.download-verification a,.help-item a{color:var(--cyan);text-decoration:underline;text-underline-offset:3px}
+[id]{scroll-margin-top:24px}
 .hero-panel{min-height:500px;position:relative;padding-top:62px}
 .glow{position:absolute;inset:18% 8%;background:#5570ff;filter:blur(110px);opacity:.3}
 .menubar{position:relative;background:#22283b;border:1px solid #ffffff22;border-radius:14px 14px 7px 7px;padding:12px 17px;color:#b8c0d7;font-size:.77rem;display:flex;gap:19px;box-shadow:0 38px 90px #0008}
@@ -62,11 +67,23 @@ h1 em{display:inline-block;font-style:normal;line-height:1.22;padding:.12em .04e
 .keys kbd{padding:5px 9px;border:1px solid var(--line);border-bottom-width:3px;border-radius:7px;background:#202944;font:700 .85rem monospace}
 .keys span{color:var(--cyan);font-weight:700}
 .install{border-top:1px solid #ffffff0d}
-.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
 .steps li{display:flex;gap:18px;padding:25px;border-top:1px solid var(--line)}
 .steps b{font-size:1.7rem;color:#6f82ee}
 .steps h3{margin:0 0 7px}
 .steps p{margin:0;color:var(--muted)}
+.steps p+p{margin-top:12px}
+.steps li>div{min-width:0}
+code{overflow-wrap:anywhere}
+.download-verification{color:var(--muted);font-size:.9rem}
+.troubleshooting{padding-top:30px}
+.help-item{padding:20px 22px;margin:12px 0;border:1px solid var(--line);border-radius:14px;background:var(--panel)}
+.help-item summary{font-weight:700;cursor:pointer;line-height:1.6}
+.help-item p{color:#b4bdd8;margin-bottom:0}
+.help-item pre{overflow:auto;padding:14px;background:var(--bg);border-radius:8px}
+.help-item pre code{overflow-wrap:normal}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--cyan);outline-offset:5px;border-radius:4px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .download-card{margin-top:48px;border:1px solid #6076ef66;background:linear-gradient(120deg,#151c39,#11172c);border-radius:20px;padding:24px 28px;display:flex;align-items:center;gap:20px}
 .download-card img{border-radius:17px}
 .download-card div{flex:1}
